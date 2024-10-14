@@ -1,0 +1,112 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #5c6bc0;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+header p {
+    font-size: 20px;
+}
+
+nav {
+    background-color: #3949ab;
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #283593;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+section {
+    padding: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #3949ab;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #3949ab;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+/* Estilo para centrar la imagen */
+.image-container {
+    text-align: center; /* Centra la imagen horizontalmente */
+    margin: 20px 0; /* Añade un margen superior e inferior a la imagen */
+}
+
+.centered-image {
+    width: 200px; /* Ancho de la imagen */
+    height: 200px; /* Altura de la imagen */
+    object-fit: cover; /* Ajusta la imagen dentro del área sin distorsión */
+}
+/* Estilo para centrar la imagen y ajustar su tamaño */
+.image-container {
+    text-align: center; /* Centra la imagen horizontalmente */
+    margin: 20px 0; /* Espaciado superior e inferior */
+}
+
+.centered-image {
+    width: 400px; /* Ajusta el tamaño de la imagen a 400px de ancho */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+/* Estilo para centrar la imagen y ajustar su tamaño */
+.image-container {
+    text-align: center; /* Centra la imagen horizontalmente */
+    margin: 20px 0; /* Espaciado superior e inferior */
+}
+
+.centered-image {
+    width: 400px; /* Ajusta el tamaño de la imagen a 400px de ancho */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+/* Estilo para centrar el video y ajustar su tamaño */
+.video-container {
+    text-align: center; /* Centra el video horizontalmente */
+    margin: 20px 0; /* Espaciado superior e inferior */
+}
+
+.video-container iframe {
+    width: "560"; /* Ajusta el tamaño del video al 70% del contenedor */
+    max-width: 800px; /* Ancho máximo del video */
+    height: "315"; /* Mantiene la proporción del video */
+}
